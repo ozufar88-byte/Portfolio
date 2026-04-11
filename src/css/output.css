@@ -580,8 +580,96 @@ video {
   display: flex;
 }
 
+.h-\[755px\] {
+  height: 755px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[px\] {
+  height: px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[5px\] {
+  height: 5px;
+}
+
+.h-\[450px\] {
+  height: 450px;
+}
+
+.h-\[4px\] {
+  height: 4px;
+}
+
+.h-\[480px\] {
+  height: 480px;
+}
+
+.h-\[470px\] {
+  height: 470px;
+}
+
+.h-\[47px\] {
+  height: 47px;
+}
+
+.h-\[475px\] {
+  height: 475px;
+}
+
+.h-\[473px\] {
+  height: 473px;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[918\] {
+  width: 918;
+}
+
+.w-\[918px\] {
+  width: 918px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[8px\] {
+  width: 8px;
+}
+
+.w-\[7008px\] {
+  width: 7008px;
+}
+
+.w-\[708px\] {
+  width: 708px;
 }
 
 .items-start {
@@ -594,6 +682,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-x-2 {
@@ -609,25 +701,23 @@ video {
   border-radius: 0.125rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.border {
-  border-width: 1px;
+.bg-\[\#145E76\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 94 118 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[\] {
   background-color: ;
 }
 
-.bg-\[\#145E76\] {
+.bg-\[\#094556\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(20 94 118 / var(--tw-bg-opacity, 1));
+  background-color: rgb(9 69 86 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#FFA63A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 166 58 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-br {
@@ -649,20 +739,28 @@ video {
   padding-bottom: 2.75rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
-.pl-80 {
-  padding-left: 20rem;
+.pt-8 {
+  padding-top: 2rem;
 }
 
-.pl-\[\] {
-  padding-left: ;
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
-.pl-\[375px\] {
-  padding-left: 375px;
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .text-5xl {
@@ -677,6 +775,24 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#849499\] {
+  --tw-text-opacity: 1;
+  color: rgb(132 148 153 / var(--tw-text-opacity, 1));
+}
+
+.hover\:bg-\[\]:hover {
+  background-color: ;
+}
+
+.hover\:bg-\[\#FFA63A\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 166 58 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-orange-400:hover {
