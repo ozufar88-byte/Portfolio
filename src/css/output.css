@@ -617,10 +617,6 @@ video {
   margin-top: 1rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .flex {
   display: flex;
 }
@@ -631,10 +627,6 @@ video {
 
 .h-10 {
   height: 2.5rem;
-}
-
-.h-\[1431px\] {
-  height: 1431px;
 }
 
 .h-\[493px\] {
@@ -653,6 +645,14 @@ video {
   height: 65px;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[29px\] {
+  height: 29px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -667,10 +667,6 @@ video {
 
 .w-\[1100px\] {
   width: 1100px;
-}
-
-.w-\[1170px\] {
-  width: 1170px;
 }
 
 .w-\[137px\] {
@@ -709,16 +705,8 @@ video {
   width: 918px;
 }
 
-.w-0 {
-  width: 0px;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[515\] {
-  width: 515;
+.w-\[227px\] {
+  width: 227px;
 }
 
 .max-w-5xl {
@@ -727,10 +715,6 @@ video {
 
 .max-w-\[510px\] {
   max-width: 510px;
-}
-
-.max-w-6xl {
-  max-width: 72rem;
 }
 
 .-translate-x-1\/2 {
@@ -744,12 +728,12 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .items-start {
@@ -768,6 +752,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -778,10 +766,6 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .gap-x-2 {
@@ -842,6 +826,10 @@ video {
   background-color: rgb(255 255 255 / 0.2);
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -879,11 +867,6 @@ video {
   padding-bottom: 2.75rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -906,6 +889,10 @@ video {
 
 .pt-7 {
   padding-top: 1.75rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {
@@ -935,11 +922,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1006,6 +988,15 @@ video {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#FFA800\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 168 0 / var(--tw-text-opacity, 1));
 }
 
 .underline {
